@@ -13,4 +13,5 @@ urlpatterns = [
     path('<id>/update', views.update_view, name='update'),
     path('<id>/delete', views.delete_view, name='delete'),
     path("signup/", SignUpView.as_view(), name="signup"),
+
 ]
